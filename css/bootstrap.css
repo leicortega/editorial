@@ -638,6 +638,9 @@ pre code {
     padding-right: 0;
     padding-left: 0
 }
+.img-fluid{
+    height: 400px;
+}
 
 .col,
 .col-1,
