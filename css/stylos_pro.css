@@ -82,4 +82,14 @@
   .woocommerce-pagination2 li .page-numbers1{
     background: rgb(61, 150, 105);
 }
+
+.product_count{
+    padding-top: 15px;
+    border: 0px solid #dee2e6;
+    height: 40px;
+    
+}
+.product_count .baja{
+   background: lawngreen;
+}
  
