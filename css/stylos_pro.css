@@ -20,67 +20,21 @@
     margin-top: 50px;
 }
 
-.woocommerce-pagination{
- margin-bottom: 20%;
- margin-top: -5%;
-
- margin-left: 0%;
+.pagination1{
+    margin: 1rem;
+    padding: 1rem;
+    margin-left: 50%;
+    margin-top: -8%;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
 }
-.woocommerce-pagination2{
-    margin-bottom: 20%;
-    margin-top: -5%;
-   
-    margin-left: 0%;
-   }
-.woocommerce-pagination li{
-    list-style: none;
-     
- }
- .woocommerce-pagination2 li{
-    list-style: none;
-     
- }
- .woocommerce-pagination li a{
-     background-color:#90151c;
-     color:rgb(0, 0, 0);
-     text-decoration:none;
-     padding:10px 15px;
-     display:block;
-      
-  }
-  .woocommerce-pagination2 li a{
-    background-color:#393bc0;
-    color:rgb(0, 0, 0);
-    text-decoration:none;
-    padding:10px 15px;
-    display:block;
-     
- }
-  .woocommerce-pagination li a:hover{
-     background-color:rgba(153, 0, 135, 0);
-     color:#90151c;
-     
-      
-  }
-  .woocommerce-pagination2 li a:hover{
-    background-color:rgba(153, 0, 135, 0);
-    color:#190a5c;
-    
-     
- }
-  .woocommerce-pagination li{
-     float: left;
-      
-  }
-  .woocommerce-pagination2 li{
-    float: left;
-     
- }
-  .woocommerce-pagination li .page-numbers1{
-      background: rgb(61, 61, 150);
-  }
-  .woocommerce-pagination2 li .page-numbers1{
-    background: rgb(61, 150, 105);
+.pagination1 li a:hover{
+    background:#90151c;
+}
+.pagination li a:hover{
+    background:#90151c;
 }
 
 .product_count{
