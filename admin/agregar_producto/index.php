@@ -162,7 +162,7 @@ foreach ($sql_user->fetchAll() as $row) {
                         <h3 class="mt-5">Agregar producto </h3>
                         <hr class="mb-3">
                         <!-- form complex example -->
-                        <form method="POST" name="agg_producto" id="agg_producto" enctype="multipart/form-data">
+                        <form method="POST" name="agg_producto" id="agg_producto" action="validaciones/agregar-img.php" enctype="multipart/form-data">
                           <div class="form-row mt-4">
                               <div class="col-sm-5 pb-3">
                                   <label for="nombre_producto">Nombre</label>
