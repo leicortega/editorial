@@ -1,0 +1,129 @@
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+a {
+    color: #5D6975;
+    text-decoration: underline;
+}
+body {
+    position: relative;
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0 auto;
+    color: #001028;
+    background: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-family: Arial;
+}
+header {
+    padding: 10px 0;
+}
+img {
+    position: absolute;
+    float: left;
+    margin-left: 37.5%;
+    margin-bottom: 40px;
+    width: 25%;
+}
+h1 {
+    font-size: 1em;
+    line-height: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+p {
+    font-size: 0.9em;
+}
+.content {
+    text-align: justify;
+}
+#project {
+    float: left;
+}
+#project span {
+    color: #5D6975;
+    text-align: right;
+    width: 52px;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 0.8em;
+}
+#company {
+    float: right;
+    text-align: right;
+}
+#project div, #company div {
+    white-space: nowrap;
+}
+table.tableOne {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+table.tableOne tr:nth-child(2n-1) td {
+    background: #F5F5F5;
+}
+table.tableOne th, table.tableOne td {
+    text-align: center;
+    border: 1px solid;
+}
+table.tableOne th {
+    padding: 5px 20px;
+    color: #5D6975;
+    border-bottom: 1px solid #C1CED9;
+    white-space: nowrap;
+    font-weight: normal;
+}
+#recorrido {
+    height: 50px;
+}
+table.tableTwo {
+    width: 100%;
+}
+table.tableTwo td {
+    text-align: left;
+}
+table.tableThree {
+    width: 100%;
+    border-collapse: collapse;
+}
+table.tableThree th, table.tableThree td {
+    border: 1px solid;
+    padding: 5px;
+}
+.origen {
+    max-height: 5px;
+    padding: 15px;
+}
+img.ini {
+    clear: both;
+    margin: 0 auto;
+    width: 50%;
+}
+img.fin {
+    clear: both;
+    margin: 0 auto;
+}
+.dato {
+    margin-bottom: 50px;
+    text-align: center;
+}
+#notices .notice {
+    color: #5D6975;
+    font-size: 1.2em;
+}
+footer {
+    color: #5D6975;
+    width: 85%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #C1CED9;
+    padding: 8px 0;
+    text-align: center;
+}
