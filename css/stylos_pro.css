@@ -46,4 +46,7 @@
 .product_count .baja{
    background: lawngreen;
 }
+.s_product_text .list li a.active:hover{
+color: #90151c;
+}
  
