@@ -1,5 +1,5 @@
 {
     "editor.formatOnType": true,
-    "editor.fontSize": 25,
-    "editor.fontFamily": "Gabriola"
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace"
 }
