@@ -712,8 +712,8 @@ pre code {
     position: relative;
     width: 100%;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px
+    padding-right: 0px;
+    padding-left: 0px
 }
 
 .col {
@@ -965,6 +965,7 @@ pre code {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%
+       
     }
     .col-sm-7 {
         -ms-flex: 0 0 58.333333%;
@@ -1134,9 +1135,9 @@ pre code {
         max-width: 41.666667%
     }
     .col-md-6 {
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%
     }
     .col-md-7 {
         -ms-flex: 0 0 58.333333%;
@@ -2428,7 +2429,10 @@ textarea.form-control {
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
+    background: #90151c;
+    color: black;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+    
 }
 
 @media screen and (prefers-reduced-motion:reduce) {
@@ -2439,7 +2443,9 @@ textarea.form-control {
 
 .btn:focus,
 .btn:hover {
-    text-decoration: none
+    text-decoration: none;
+    background: white;
+    color: #90151c;
 }
 
 .btn.focus,
