@@ -4,7 +4,7 @@ require("../../admin/assets/config/ConexionBaseDatos_PDO.php");
 
 $conexion = conectaDb();
 
-$sql_productos = $conexion->prepare("SELECT * from producto_editorial");
+$sql_productos = $conexion->prepare("SELECT * from producto_editorial limit 1");
 $sql_productos->execute();
 
 ?>
